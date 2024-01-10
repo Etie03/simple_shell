@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * addt - The function
+ * main - The function
  *
  * Return: Always 0 (Success)
  */
-int addt(void)
+int main(void)
 {
 	int i;
 
