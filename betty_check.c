@@ -1,18 +1,9 @@
-#include <stdio.h>
+#include "shell.h"
 
 /**
- * main - The function
- *
- * Return: Always 0 (Success)
+ * print_hello_world - prints "Hello, World!" to the standard output
  */
-int main(void)
+void print_hello_world(void)
 {
-	int i;
-
-	for (i = 0; i < 10; i++)
-	{
-		printf("Hello, world!\n");
-	}
-
-	return (0);
+	printf("Hello, World!\n");
 }

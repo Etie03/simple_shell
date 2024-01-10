@@ -9,4 +9,8 @@
 
 #define BUFFER_SIZE 1024
 
+void print_hello_world(void);
+void executeCommand(char *command);
+void runShell(void);
+
 #endif
