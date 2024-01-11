@@ -12,7 +12,6 @@
 #define BUFFER_SIZE 1024
 
 int main(int argc, char **argv, char **envp);
-void print_hello_world(void);
 int _strlen(char *stg);
 char *_strcpy(char *dest, char *src);
 int _strncmp(char *s1, char *s2, int n);
