@@ -22,9 +22,9 @@ int parac(char **arry, char **envp)
 			execve(arry[0], arry, envp);
 			break;
 		default:
-			do {
+			do
 				waitpid(pid, &m, WUNTRACED);
-			} while (WIFEXITED(m) == 0 && WIFSIGNALED(m) == 0);
+			while (!(WIFEXITED(m) || WIFSIGNALED(m)));
 	}
 return (0);
 }
